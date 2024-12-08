@@ -15,7 +15,8 @@ For comparison please note that I ran all my tests on an Apple M1 Pro.
 
 ## Project
 
-Every "run_X" folder contains one solution. Each ascending folder contains another change.
+Every `run_X` package contains one solution. Each ascending folder contains another change.
+Tests and Benchmarks can be found in `run_test.go` and in the respective `run_X` packages.
 
 I still did one implementation with concurrency in "concurrent_1". 
 Though this version doesn't contain all improvements I made along the way.
