@@ -1,0 +1,15 @@
+# IDE
+.idea
+.vscode
+
+# macOS
+.DS_Store
+
+1brc/
+rules.md
+
+measurements.txt
+measurements_1b.txt
+measurements_10mio.txt
+
+

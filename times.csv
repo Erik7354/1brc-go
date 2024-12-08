@@ -1,0 +1,10 @@
+Run,s/op,allocs/op,Change
+1,119.3s,2000003181,naive implementation
+2,108.0s,2000002567,"strings.Split(...) -> strings.SplitN(line, "";"", 2)"
+3,82.0s,1000002174,scanner.Text() -> scanner.Bytes()
+4,61.0s,1000002195,float -> int
+5,56.4s,1000004225,"bytes.Cut(...) -> custom splitLine(line []byte) (string, []byte) "
+6,"53,6s",1000002187,intTemp: loop -> if
+7,"48,4s",1000002117,bufio.Scanner -> StationScanner
+8,"39,4s",2921,string(...) -> unsafe.String(...)
+9,"29,5s",2925,bytes.IndexByte(...) -> indexByte(...)
